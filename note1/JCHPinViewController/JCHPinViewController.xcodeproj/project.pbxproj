@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482948B51BF9C5D8003D4057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482948B41BF9C5D8003D4057 /* main.m */; };
+		482948B81BF9C5D8003D4057 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 482948B71BF9C5D8003D4057 /* AppDelegate.m */; };
+		482948BB1BF9C5D8003D4057 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482948BA1BF9C5D8003D4057 /* ViewController.m */; };
+		482948BE1BF9C5D8003D4057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482948BC1BF9C5D8003D4057 /* Main.storyboard */; };
+		482948C01BF9C5D9003D4057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482948BF1BF9C5D9003D4057 /* Assets.xcassets */; };
+		482948C31BF9C5D9003D4057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482948C11BF9C5D9003D4057 /* LaunchScreen.storyboard */; };
+		482948CE1BF9C5D9003D4057 /* JCHPinViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482948CD1BF9C5D9003D4057 /* JCHPinViewControllerTests.m */; };
+		482948D91BF9C5D9003D4057 /* JCHPinViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482948D81BF9C5D9003D4057 /* JCHPinViewControllerUITests.m */; };
+		48349B021BF9C77100F883AE /* PinCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48349B011BF9C77100F883AE /* PinCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		482948CA1BF9C5D9003D4057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482948A81BF9C5D8003D4057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482948AF1BF9C5D8003D4057;
+			remoteInfo = JCHPinViewController;
+		};
+		482948D51BF9C5D9003D4057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482948A81BF9C5D8003D4057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482948AF1BF9C5D8003D4057;
+			remoteInfo = JCHPinViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		482948B01BF9C5D8003D4057 /* JCHPinViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCHPinViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		482948B41BF9C5D8003D4057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		482948B61BF9C5D8003D4057 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		482948B71BF9C5D8003D4057 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		482948B91BF9C5D8003D4057 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		482948BA1BF9C5D8003D4057 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		482948BD1BF9C5D8003D4057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		482948BF1BF9C5D9003D4057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		482948C21BF9C5D9003D4057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		482948C41BF9C5D9003D4057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482948C91BF9C5D9003D4057 /* JCHPinViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCHPinViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482948CD1BF9C5D9003D4057 /* JCHPinViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCHPinViewControllerTests.m; sourceTree = "<group>"; };
+		482948CF1BF9C5D9003D4057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482948D41BF9C5D9003D4057 /* JCHPinViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCHPinViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482948D81BF9C5D9003D4057 /* JCHPinViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCHPinViewControllerUITests.m; sourceTree = "<group>"; };
+		482948DA1BF9C5D9003D4057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48349B001BF9C77100F883AE /* PinCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinCircleView.h; sourceTree = "<group>"; };
+		48349B011BF9C77100F883AE /* PinCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482948AD1BF9C5D8003D4057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482948C61BF9C5D9003D4057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482948D11BF9C5D9003D4057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482948A71BF9C5D8003D4057 = {
+			isa = PBXGroup;
+			children = (
+				482948B21BF9C5D8003D4057 /* JCHPinViewController */,
+				482948CC1BF9C5D9003D4057 /* JCHPinViewControllerTests */,
+				482948D71BF9C5D9003D4057 /* JCHPinViewControllerUITests */,
+				482948B11BF9C5D8003D4057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		482948B11BF9C5D8003D4057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482948B01BF9C5D8003D4057 /* JCHPinViewController.app */,
+				482948C91BF9C5D9003D4057 /* JCHPinViewControllerTests.xctest */,
+				482948D41BF9C5D9003D4057 /* JCHPinViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		482948B21BF9C5D8003D4057 /* JCHPinViewController */ = {
+			isa = PBXGroup;
+			children = (
+				482948B61BF9C5D8003D4057 /* AppDelegate.h */,
+				482948B71BF9C5D8003D4057 /* AppDelegate.m */,
+				482948B91BF9C5D8003D4057 /* ViewController.h */,
+				482948BA1BF9C5D8003D4057 /* ViewController.m */,
+				482948BC1BF9C5D8003D4057 /* Main.storyboard */,
+				482948BF1BF9C5D9003D4057 /* Assets.xcassets */,
+				482948C11BF9C5D9003D4057 /* LaunchScreen.storyboard */,
+				482948C41BF9C5D9003D4057 /* Info.plist */,
+				482948B31BF9C5D8003D4057 /* Supporting Files */,
+				48349B001BF9C77100F883AE /* PinCircleView.h */,
+				48349B011BF9C77100F883AE /* PinCircleView.m */,
+			);
+			path = JCHPinViewController;
+			sourceTree = "<group>";
+		};
+		482948B31BF9C5D8003D4057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				482948B41BF9C5D8003D4057 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		482948CC1BF9C5D9003D4057 /* JCHPinViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				482948CD1BF9C5D9003D4057 /* JCHPinViewControllerTests.m */,
+				482948CF1BF9C5D9003D4057 /* Info.plist */,
+			);
+			path = JCHPinViewControllerTests;
+			sourceTree = "<group>";
+		};
+		482948D71BF9C5D9003D4057 /* JCHPinViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				482948D81BF9C5D9003D4057 /* JCHPinViewControllerUITests.m */,
+				482948DA1BF9C5D9003D4057 /* Info.plist */,
+			);
+			path = JCHPinViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482948AF1BF9C5D8003D4057 /* JCHPinViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482948DD1BF9C5D9003D4057 /* Build configuration list for PBXNativeTarget "JCHPinViewController" */;
+			buildPhases = (
+				482948AC1BF9C5D8003D4057 /* Sources */,
+				482948AD1BF9C5D8003D4057 /* Frameworks */,
+				482948AE1BF9C5D8003D4057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCHPinViewController;
+			productName = JCHPinViewController;
+			productReference = 482948B01BF9C5D8003D4057 /* JCHPinViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		482948C81BF9C5D9003D4057 /* JCHPinViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482948E01BF9C5D9003D4057 /* Build configuration list for PBXNativeTarget "JCHPinViewControllerTests" */;
+			buildPhases = (
+				482948C51BF9C5D9003D4057 /* Sources */,
+				482948C61BF9C5D9003D4057 /* Frameworks */,
+				482948C71BF9C5D9003D4057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482948CB1BF9C5D9003D4057 /* PBXTargetDependency */,
+			);
+			name = JCHPinViewControllerTests;
+			productName = JCHPinViewControllerTests;
+			productReference = 482948C91BF9C5D9003D4057 /* JCHPinViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		482948D31BF9C5D9003D4057 /* JCHPinViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482948E31BF9C5D9003D4057 /* Build configuration list for PBXNativeTarget "JCHPinViewControllerUITests" */;
+			buildPhases = (
+				482948D01BF9C5D9003D4057 /* Sources */,
+				482948D11BF9C5D9003D4057 /* Frameworks */,
+				482948D21BF9C5D9003D4057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482948D61BF9C5D9003D4057 /* PBXTargetDependency */,
+			);
+			name = JCHPinViewControllerUITests;
+			productName = JCHPinViewControllerUITests;
+			productReference = 482948D41BF9C5D9003D4057 /* JCHPinViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482948A81BF9C5D8003D4057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = huangxu;
+				TargetAttributes = {
+					482948AF1BF9C5D8003D4057 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					482948C81BF9C5D9003D4057 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 482948AF1BF9C5D8003D4057;
+					};
+					482948D31BF9C5D9003D4057 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 482948AF1BF9C5D8003D4057;
+					};
+				};
+			};
+			buildConfigurationList = 482948AB1BF9C5D8003D4057 /* Build configuration list for PBXProject "JCHPinViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 482948A71BF9C5D8003D4057;
+			productRefGroup = 482948B11BF9C5D8003D4057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482948AF1BF9C5D8003D4057 /* JCHPinViewController */,
+				482948C81BF9C5D9003D4057 /* JCHPinViewControllerTests */,
+				482948D31BF9C5D9003D4057 /* JCHPinViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482948AE1BF9C5D8003D4057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482948C31BF9C5D9003D4057 /* LaunchScreen.storyboard in Resources */,
+				482948C01BF9C5D9003D4057 /* Assets.xcassets in Resources */,
+				482948BE1BF9C5D8003D4057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482948C71BF9C5D9003D4057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482948D21BF9C5D9003D4057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482948AC1BF9C5D8003D4057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482948BB1BF9C5D8003D4057 /* ViewController.m in Sources */,
+				482948B81BF9C5D8003D4057 /* AppDelegate.m in Sources */,
+				48349B021BF9C77100F883AE /* PinCircleView.m in Sources */,
+				482948B51BF9C5D8003D4057 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482948C51BF9C5D9003D4057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482948CE1BF9C5D9003D4057 /* JCHPinViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482948D01BF9C5D9003D4057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482948D91BF9C5D9003D4057 /* JCHPinViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		482948CB1BF9C5D9003D4057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482948AF1BF9C5D8003D4057 /* JCHPinViewController */;
+			targetProxy = 482948CA1BF9C5D9003D4057 /* PBXContainerItemProxy */;
+		};
+		482948D61BF9C5D9003D4057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482948AF1BF9C5D8003D4057 /* JCHPinViewController */;
+			targetProxy = 482948D51BF9C5D9003D4057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		482948BC1BF9C5D8003D4057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482948BD1BF9C5D8003D4057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		482948C11BF9C5D9003D4057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482948C21BF9C5D9003D4057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		482948DB1BF9C5D9003D4057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		482948DC1BF9C5D9003D4057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		482948DE1BF9C5D9003D4057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCHPinViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JCHPinViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		482948DF1BF9C5D9003D4057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCHPinViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JCHPinViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		482948E11BF9C5D9003D4057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JCHPinViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JCHPinViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCHPinViewController.app/JCHPinViewController";
+			};
+			name = Debug;
+		};
+		482948E21BF9C5D9003D4057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JCHPinViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JCHPinViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCHPinViewController.app/JCHPinViewController";
+			};
+			name = Release;
+		};
+		482948E41BF9C5D9003D4057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JCHPinViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JCHPinViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCHPinViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		482948E51BF9C5D9003D4057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JCHPinViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JCHPinViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCHPinViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482948AB1BF9C5D8003D4057 /* Build configuration list for PBXProject "JCHPinViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482948DB1BF9C5D9003D4057 /* Debug */,
+				482948DC1BF9C5D9003D4057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482948DD1BF9C5D9003D4057 /* Build configuration list for PBXNativeTarget "JCHPinViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482948DE1BF9C5D9003D4057 /* Debug */,
+				482948DF1BF9C5D9003D4057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482948E01BF9C5D9003D4057 /* Build configuration list for PBXNativeTarget "JCHPinViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482948E11BF9C5D9003D4057 /* Debug */,
+				482948E21BF9C5D9003D4057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482948E31BF9C5D9003D4057 /* Build configuration list for PBXNativeTarget "JCHPinViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482948E41BF9C5D9003D4057 /* Debug */,
+				482948E51BF9C5D9003D4057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 482948A81BF9C5D8003D4057 /* Project object */;
+}

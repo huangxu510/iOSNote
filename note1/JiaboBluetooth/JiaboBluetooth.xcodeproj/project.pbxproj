@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489E0FC61BFC46BC00A4F810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E0FC51BFC46BC00A4F810 /* main.m */; };
+		489E0FC91BFC46BC00A4F810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E0FC81BFC46BC00A4F810 /* AppDelegate.m */; };
+		489E0FCC1BFC46BC00A4F810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E0FCB1BFC46BC00A4F810 /* ViewController.m */; };
+		489E0FCF1BFC46BC00A4F810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489E0FCD1BFC46BC00A4F810 /* Main.storyboard */; };
+		489E0FD11BFC46BD00A4F810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489E0FD01BFC46BD00A4F810 /* Assets.xcassets */; };
+		489E0FD41BFC46BD00A4F810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489E0FD21BFC46BD00A4F810 /* LaunchScreen.storyboard */; };
+		489E0FDF1BFC46BD00A4F810 /* JiaboBluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E0FDE1BFC46BD00A4F810 /* JiaboBluetoothTests.m */; };
+		489E0FEA1BFC46BD00A4F810 /* JiaboBluetoothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E0FE91BFC46BD00A4F810 /* JiaboBluetoothUITests.m */; };
+		489E0FFF1BFC471800A4F810 /* libGSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E0FFE1BFC471800A4F810 /* libGSDK.a */; };
+		489E10171BFC474E00A4F810 /* CBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E10021BFC474E00A4F810 /* CBController.m */; };
+		489E10181BFC474E00A4F810 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E10041BFC474E00A4F810 /* ConnectViewController.m */; };
+		489E10191BFC474E00A4F810 /* ConnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489E10051BFC474E00A4F810 /* ConnectViewController.xib */; };
+		489E101A1BFC474E00A4F810 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E10071BFC474E00A4F810 /* DeviceInfo.m */; };
+		489E101B1BFC474E00A4F810 /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E10091BFC474E00A4F810 /* DeviceInfoViewController.m */; };
+		489E101C1BFC474E00A4F810 /* DeviceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489E100A1BFC474E00A4F810 /* DeviceInfoViewController.xib */; };
+		489E101D1BFC474E00A4F810 /* ISError.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E100C1BFC474E00A4F810 /* ISError.m */; };
+		489E101E1BFC474E00A4F810 /* ISSCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E100E1BFC474E00A4F810 /* ISSCButton.m */; };
+		489E101F1BFC474E00A4F810 /* libReliableBurstData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E100F1BFC474E00A4F810 /* libReliableBurstData.a */; };
+		489E10201BFC474E00A4F810 /* MyPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E10111BFC474E00A4F810 /* MyPeripheral.m */; };
+		489E10211BFC474E00A4F810 /* UUIDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E10151BFC474E00A4F810 /* UUIDSettingViewController.m */; };
+		489E10221BFC474E00A4F810 /* UUIDSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489E10161BFC474E00A4F810 /* UUIDSettingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		489E0FDB1BFC46BD00A4F810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489E0FB91BFC46BC00A4F810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489E0FC01BFC46BC00A4F810;
+			remoteInfo = JiaboBluetooth;
+		};
+		489E0FE61BFC46BD00A4F810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489E0FB91BFC46BC00A4F810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489E0FC01BFC46BC00A4F810;
+			remoteInfo = JiaboBluetooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		489E0FC11BFC46BC00A4F810 /* JiaboBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiaboBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		489E0FC51BFC46BC00A4F810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		489E0FC71BFC46BC00A4F810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		489E0FC81BFC46BC00A4F810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		489E0FCA1BFC46BC00A4F810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		489E0FCB1BFC46BC00A4F810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		489E0FCE1BFC46BC00A4F810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		489E0FD01BFC46BD00A4F810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		489E0FD31BFC46BD00A4F810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		489E0FD51BFC46BD00A4F810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489E0FDA1BFC46BD00A4F810 /* JiaboBluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiaboBluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489E0FDE1BFC46BD00A4F810 /* JiaboBluetoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiaboBluetoothTests.m; sourceTree = "<group>"; };
+		489E0FE01BFC46BD00A4F810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489E0FE51BFC46BD00A4F810 /* JiaboBluetoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiaboBluetoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489E0FE91BFC46BD00A4F810 /* JiaboBluetoothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiaboBluetoothUITests.m; sourceTree = "<group>"; };
+		489E0FEB1BFC46BD00A4F810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489E0FF91BFC471800A4F810 /* BLKWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKWrite.h; sourceTree = "<group>"; };
+		489E0FFA1BFC471800A4F810 /* BluetoothDeviceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothDeviceHeader.h; sourceTree = "<group>"; };
+		489E0FFB1BFC471800A4F810 /* EscCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EscCommand.h; sourceTree = "<group>"; };
+		489E0FFC1BFC471800A4F810 /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = "<group>"; };
+		489E0FFD1BFC471800A4F810 /* TscCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TscCommand.h; sourceTree = "<group>"; };
+		489E0FFE1BFC471800A4F810 /* libGSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGSDK.a; sourceTree = "<group>"; };
+		489E10011BFC474E00A4F810 /* CBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBController.h; sourceTree = "<group>"; };
+		489E10021BFC474E00A4F810 /* CBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBController.m; sourceTree = "<group>"; };
+		489E10031BFC474E00A4F810 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		489E10041BFC474E00A4F810 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		489E10051BFC474E00A4F810 /* ConnectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectViewController.xib; sourceTree = "<group>"; };
+		489E10061BFC474E00A4F810 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		489E10071BFC474E00A4F810 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		489E10081BFC474E00A4F810 /* DeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		489E10091BFC474E00A4F810 /* DeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		489E100A1BFC474E00A4F810 /* DeviceInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceInfoViewController.xib; sourceTree = "<group>"; };
+		489E100B1BFC474E00A4F810 /* ISError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISError.h; sourceTree = "<group>"; };
+		489E100C1BFC474E00A4F810 /* ISError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISError.m; sourceTree = "<group>"; };
+		489E100D1BFC474E00A4F810 /* ISSCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSCButton.h; sourceTree = "<group>"; };
+		489E100E1BFC474E00A4F810 /* ISSCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSCButton.m; sourceTree = "<group>"; };
+		489E100F1BFC474E00A4F810 /* libReliableBurstData.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libReliableBurstData.a; sourceTree = "<group>"; };
+		489E10101BFC474E00A4F810 /* MyPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPeripheral.h; sourceTree = "<group>"; };
+		489E10111BFC474E00A4F810 /* MyPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPeripheral.m; sourceTree = "<group>"; };
+		489E10121BFC474E00A4F810 /* ReliableBurstData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReliableBurstData.h; sourceTree = "<group>"; };
+		489E10131BFC474E00A4F810 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		489E10141BFC474E00A4F810 /* UUIDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDSettingViewController.h; sourceTree = "<group>"; };
+		489E10151BFC474E00A4F810 /* UUIDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDSettingViewController.m; sourceTree = "<group>"; };
+		489E10161BFC474E00A4F810 /* UUIDSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UUIDSettingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489E0FBE1BFC46BC00A4F810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489E101F1BFC474E00A4F810 /* libReliableBurstData.a in Frameworks */,
+				489E0FFF1BFC471800A4F810 /* libGSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E0FD71BFC46BD00A4F810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E0FE21BFC46BD00A4F810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489E0FB81BFC46BC00A4F810 = {
+			isa = PBXGroup;
+			children = (
+				489E0FC31BFC46BC00A4F810 /* JiaboBluetooth */,
+				489E0FDD1BFC46BD00A4F810 /* JiaboBluetoothTests */,
+				489E0FE81BFC46BD00A4F810 /* JiaboBluetoothUITests */,
+				489E0FC21BFC46BC00A4F810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		489E0FC21BFC46BC00A4F810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FC11BFC46BC00A4F810 /* JiaboBluetooth.app */,
+				489E0FDA1BFC46BD00A4F810 /* JiaboBluetoothTests.xctest */,
+				489E0FE51BFC46BD00A4F810 /* JiaboBluetoothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489E0FC31BFC46BC00A4F810 /* JiaboBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FF71BFC46F600A4F810 /* BluetoothSDK */,
+				489E10001BFC474E00A4F810 /* ISSC */,
+				489E0FC71BFC46BC00A4F810 /* AppDelegate.h */,
+				489E0FC81BFC46BC00A4F810 /* AppDelegate.m */,
+				489E0FCA1BFC46BC00A4F810 /* ViewController.h */,
+				489E0FCB1BFC46BC00A4F810 /* ViewController.m */,
+				489E0FCD1BFC46BC00A4F810 /* Main.storyboard */,
+				489E0FD01BFC46BD00A4F810 /* Assets.xcassets */,
+				489E0FD21BFC46BD00A4F810 /* LaunchScreen.storyboard */,
+				489E0FD51BFC46BD00A4F810 /* Info.plist */,
+				489E0FC41BFC46BC00A4F810 /* Supporting Files */,
+			);
+			path = JiaboBluetooth;
+			sourceTree = "<group>";
+		};
+		489E0FC41BFC46BC00A4F810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FC51BFC46BC00A4F810 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		489E0FDD1BFC46BD00A4F810 /* JiaboBluetoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FDE1BFC46BD00A4F810 /* JiaboBluetoothTests.m */,
+				489E0FE01BFC46BD00A4F810 /* Info.plist */,
+			);
+			path = JiaboBluetoothTests;
+			sourceTree = "<group>";
+		};
+		489E0FE81BFC46BD00A4F810 /* JiaboBluetoothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FE91BFC46BD00A4F810 /* JiaboBluetoothUITests.m */,
+				489E0FEB1BFC46BD00A4F810 /* Info.plist */,
+			);
+			path = JiaboBluetoothUITests;
+			sourceTree = "<group>";
+		};
+		489E0FF71BFC46F600A4F810 /* BluetoothSDK */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FF81BFC471800A4F810 /* include */,
+				489E0FFE1BFC471800A4F810 /* libGSDK.a */,
+			);
+			name = BluetoothSDK;
+			sourceTree = "<group>";
+		};
+		489E0FF81BFC471800A4F810 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				489E0FF91BFC471800A4F810 /* BLKWrite.h */,
+				489E0FFA1BFC471800A4F810 /* BluetoothDeviceHeader.h */,
+				489E0FFB1BFC471800A4F810 /* EscCommand.h */,
+				489E0FFC1BFC471800A4F810 /* SerialGATT.h */,
+				489E0FFD1BFC471800A4F810 /* TscCommand.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		489E10001BFC474E00A4F810 /* ISSC */ = {
+			isa = PBXGroup;
+			children = (
+				489E10011BFC474E00A4F810 /* CBController.h */,
+				489E10021BFC474E00A4F810 /* CBController.m */,
+				489E10031BFC474E00A4F810 /* ConnectViewController.h */,
+				489E10041BFC474E00A4F810 /* ConnectViewController.m */,
+				489E10051BFC474E00A4F810 /* ConnectViewController.xib */,
+				489E10061BFC474E00A4F810 /* DeviceInfo.h */,
+				489E10071BFC474E00A4F810 /* DeviceInfo.m */,
+				489E10081BFC474E00A4F810 /* DeviceInfoViewController.h */,
+				489E10091BFC474E00A4F810 /* DeviceInfoViewController.m */,
+				489E100A1BFC474E00A4F810 /* DeviceInfoViewController.xib */,
+				489E100B1BFC474E00A4F810 /* ISError.h */,
+				489E100C1BFC474E00A4F810 /* ISError.m */,
+				489E100D1BFC474E00A4F810 /* ISSCButton.h */,
+				489E100E1BFC474E00A4F810 /* ISSCButton.m */,
+				489E100F1BFC474E00A4F810 /* libReliableBurstData.a */,
+				489E10101BFC474E00A4F810 /* MyPeripheral.h */,
+				489E10111BFC474E00A4F810 /* MyPeripheral.m */,
+				489E10121BFC474E00A4F810 /* ReliableBurstData.h */,
+				489E10131BFC474E00A4F810 /* UUID.h */,
+				489E10141BFC474E00A4F810 /* UUIDSettingViewController.h */,
+				489E10151BFC474E00A4F810 /* UUIDSettingViewController.m */,
+				489E10161BFC474E00A4F810 /* UUIDSettingViewController.xib */,
+			);
+			path = ISSC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489E0FC01BFC46BC00A4F810 /* JiaboBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489E0FEE1BFC46BD00A4F810 /* Build configuration list for PBXNativeTarget "JiaboBluetooth" */;
+			buildPhases = (
+				489E0FBD1BFC46BC00A4F810 /* Sources */,
+				489E0FBE1BFC46BC00A4F810 /* Frameworks */,
+				489E0FBF1BFC46BC00A4F810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiaboBluetooth;
+			productName = JiaboBluetooth;
+			productReference = 489E0FC11BFC46BC00A4F810 /* JiaboBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		489E0FD91BFC46BD00A4F810 /* JiaboBluetoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489E0FF11BFC46BD00A4F810 /* Build configuration list for PBXNativeTarget "JiaboBluetoothTests" */;
+			buildPhases = (
+				489E0FD61BFC46BD00A4F810 /* Sources */,
+				489E0FD71BFC46BD00A4F810 /* Frameworks */,
+				489E0FD81BFC46BD00A4F810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489E0FDC1BFC46BD00A4F810 /* PBXTargetDependency */,
+			);
+			name = JiaboBluetoothTests;
+			productName = JiaboBluetoothTests;
+			productReference = 489E0FDA1BFC46BD00A4F810 /* JiaboBluetoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		489E0FE41BFC46BD00A4F810 /* JiaboBluetoothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489E0FF41BFC46BD00A4F810 /* Build configuration list for PBXNativeTarget "JiaboBluetoothUITests" */;
+			buildPhases = (
+				489E0FE11BFC46BD00A4F810 /* Sources */,
+				489E0FE21BFC46BD00A4F810 /* Frameworks */,
+				489E0FE31BFC46BD00A4F810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489E0FE71BFC46BD00A4F810 /* PBXTargetDependency */,
+			);
+			name = JiaboBluetoothUITests;
+			productName = JiaboBluetoothUITests;
+			productReference = 489E0FE51BFC46BD00A4F810 /* JiaboBluetoothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489E0FB91BFC46BC00A4F810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = huangxu;
+				TargetAttributes = {
+					489E0FC01BFC46BC00A4F810 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					489E0FD91BFC46BD00A4F810 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 489E0FC01BFC46BC00A4F810;
+					};
+					489E0FE41BFC46BD00A4F810 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 489E0FC01BFC46BC00A4F810;
+					};
+				};
+			};
+			buildConfigurationList = 489E0FBC1BFC46BC00A4F810 /* Build configuration list for PBXProject "JiaboBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489E0FB81BFC46BC00A4F810;
+			productRefGroup = 489E0FC21BFC46BC00A4F810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489E0FC01BFC46BC00A4F810 /* JiaboBluetooth */,
+				489E0FD91BFC46BD00A4F810 /* JiaboBluetoothTests */,
+				489E0FE41BFC46BD00A4F810 /* JiaboBluetoothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489E0FBF1BFC46BC00A4F810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489E0FD41BFC46BD00A4F810 /* LaunchScreen.storyboard in Resources */,
+				489E0FD11BFC46BD00A4F810 /* Assets.xcassets in Resources */,
+				489E0FCF1BFC46BC00A4F810 /* Main.storyboard in Resources */,
+				489E10191BFC474E00A4F810 /* ConnectViewController.xib in Resources */,
+				489E10221BFC474E00A4F810 /* UUIDSettingViewController.xib in Resources */,
+				489E101C1BFC474E00A4F810 /* DeviceInfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E0FD81BFC46BD00A4F810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E0FE31BFC46BD00A4F810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489E0FBD1BFC46BC00A4F810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489E0FCC1BFC46BC00A4F810 /* ViewController.m in Sources */,
+				489E10181BFC474E00A4F810 /* ConnectViewController.m in Sources */,
+				489E101D1BFC474E00A4F810 /* ISError.m in Sources */,
+				489E10211BFC474E00A4F810 /* UUIDSettingViewController.m in Sources */,
+				489E101E1BFC474E00A4F810 /* ISSCButton.m in Sources */,
+				489E0FC91BFC46BC00A4F810 /* AppDelegate.m in Sources */,
+				489E101B1BFC474E00A4F810 /* DeviceInfoViewController.m in Sources */,
+				489E101A1BFC474E00A4F810 /* DeviceInfo.m in Sources */,
+				489E10201BFC474E00A4F810 /* MyPeripheral.m in Sources */,
+				489E10171BFC474E00A4F810 /* CBController.m in Sources */,
+				489E0FC61BFC46BC00A4F810 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E0FD61BFC46BD00A4F810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489E0FDF1BFC46BD00A4F810 /* JiaboBluetoothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489E0FE11BFC46BD00A4F810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489E0FEA1BFC46BD00A4F810 /* JiaboBluetoothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		489E0FDC1BFC46BD00A4F810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489E0FC01BFC46BC00A4F810 /* JiaboBluetooth */;
+			targetProxy = 489E0FDB1BFC46BD00A4F810 /* PBXContainerItemProxy */;
+		};
+		489E0FE71BFC46BD00A4F810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489E0FC01BFC46BC00A4F810 /* JiaboBluetooth */;
+			targetProxy = 489E0FE61BFC46BD00A4F810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		489E0FCD1BFC46BC00A4F810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489E0FCE1BFC46BC00A4F810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		489E0FD21BFC46BD00A4F810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489E0FD31BFC46BD00A4F810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489E0FEC1BFC46BD00A4F810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		489E0FED1BFC46BD00A4F810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489E0FEF1BFC46BD00A4F810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JiaboBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JiaboBluetooth",
+					"$(PROJECT_DIR)/JiaboBluetooth/ISSC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JiaboBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		489E0FF01BFC46BD00A4F810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JiaboBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JiaboBluetooth",
+					"$(PROJECT_DIR)/JiaboBluetooth/ISSC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JiaboBluetooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		489E0FF21BFC46BD00A4F810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiaboBluetoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JiaboBluetoothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiaboBluetooth.app/JiaboBluetooth";
+			};
+			name = Debug;
+		};
+		489E0FF31BFC46BD00A4F810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiaboBluetoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JiaboBluetoothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiaboBluetooth.app/JiaboBluetooth";
+			};
+			name = Release;
+		};
+		489E0FF51BFC46BD00A4F810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiaboBluetoothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JiaboBluetoothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiaboBluetooth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		489E0FF61BFC46BD00A4F810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiaboBluetoothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimaire.JiaboBluetoothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiaboBluetooth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489E0FBC1BFC46BC00A4F810 /* Build configuration list for PBXProject "JiaboBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489E0FEC1BFC46BD00A4F810 /* Debug */,
+				489E0FED1BFC46BD00A4F810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489E0FEE1BFC46BD00A4F810 /* Build configuration list for PBXNativeTarget "JiaboBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489E0FEF1BFC46BD00A4F810 /* Debug */,
+				489E0FF01BFC46BD00A4F810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		489E0FF11BFC46BD00A4F810 /* Build configuration list for PBXNativeTarget "JiaboBluetoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489E0FF21BFC46BD00A4F810 /* Debug */,
+				489E0FF31BFC46BD00A4F810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		489E0FF41BFC46BD00A4F810 /* Build configuration list for PBXNativeTarget "JiaboBluetoothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489E0FF51BFC46BD00A4F810 /* Debug */,
+				489E0FF61BFC46BD00A4F810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489E0FB91BFC46BC00A4F810 /* Project object */;
+}

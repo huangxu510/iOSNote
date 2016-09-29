@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EB24DC11C570665000537BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24DC01C570665000537BB /* main.m */; };
+		1EB24DC41C570665000537BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24DC31C570665000537BB /* AppDelegate.m */; };
+		1EB24DCC1C570665000537BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB24DCB1C570665000537BB /* Assets.xcassets */; };
+		1EB24DCF1C570665000537BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB24DCD1C570665000537BB /* LaunchScreen.storyboard */; };
+		1EB24DDA1C570666000537BB /* SY_CheShiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24DD91C570666000537BB /* SY_CheShiTests.m */; };
+		1EB24DE51C570666000537BB /* SY_CheShiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24DE41C570666000537BB /* SY_CheShiUITests.m */; };
+		1EB24DF51C570692000537BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24DF41C570692000537BB /* MainViewController.m */; };
+		1EB24DF91C57075D000537BB /* SY_BlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24DF81C57075D000537BB /* SY_BlueTooth.m */; };
+		1EB24DFB1C570777000537BB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB24DFA1C570777000537BB /* CoreBluetooth.framework */; };
+		1EB24DFD1C570780000537BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB24DFC1C570780000537BB /* UIKit.framework */; };
+		1EB24DFF1C570790000537BB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB24DFE1C570790000537BB /* CoreFoundation.framework */; };
+		1EB24E011C570799000537BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB24E001C570799000537BB /* Foundation.framework */; };
+		1EB24E041C57085E000537BB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24E031C57085E000537BB /* RootViewController.m */; };
+		1EB24E091C570BDF000537BB /* SyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24E081C570BDF000537BB /* SyTableViewCell.m */; };
+		1EB24E0C1C57785F000537BB /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB24E0B1C57785F000537BB /* Model.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EB24DD61C570665000537BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EB24DB41C570665000537BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB24DBB1C570665000537BB;
+			remoteInfo = SY_CheShi;
+		};
+		1EB24DE11C570666000537BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EB24DB41C570665000537BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB24DBB1C570665000537BB;
+			remoteInfo = SY_CheShi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EB24DBC1C570665000537BB /* SY_CheShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SY_CheShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB24DC01C570665000537BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EB24DC21C570665000537BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EB24DC31C570665000537BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EB24DCB1C570665000537BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EB24DCE1C570665000537BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EB24DD01C570665000537BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB24DD51C570665000537BB /* SY_CheShiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SY_CheShiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB24DD91C570666000537BB /* SY_CheShiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SY_CheShiTests.m; sourceTree = "<group>"; };
+		1EB24DDB1C570666000537BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB24DE01C570666000537BB /* SY_CheShiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SY_CheShiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB24DE41C570666000537BB /* SY_CheShiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SY_CheShiUITests.m; sourceTree = "<group>"; };
+		1EB24DE61C570666000537BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB24DF31C570692000537BB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1EB24DF41C570692000537BB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1EB24DF71C57075D000537BB /* SY_BlueTooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SY_BlueTooth.h; path = ../SY_BlueTooth.h; sourceTree = "<group>"; };
+		1EB24DF81C57075D000537BB /* SY_BlueTooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SY_BlueTooth.m; path = ../SY_BlueTooth.m; sourceTree = "<group>"; };
+		1EB24DFA1C570777000537BB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1EB24DFC1C570780000537BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EB24DFE1C570790000537BB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1EB24E001C570799000537BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EB24E021C57085E000537BB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1EB24E031C57085E000537BB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1EB24E071C570BDF000537BB /* SyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyTableViewCell.h; sourceTree = "<group>"; };
+		1EB24E081C570BDF000537BB /* SyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyTableViewCell.m; sourceTree = "<group>"; };
+		1EB24E0A1C57785F000537BB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		1EB24E0B1C57785F000537BB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EB24DB91C570665000537BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB24E011C570799000537BB /* Foundation.framework in Frameworks */,
+				1EB24DFF1C570790000537BB /* CoreFoundation.framework in Frameworks */,
+				1EB24DFD1C570780000537BB /* UIKit.framework in Frameworks */,
+				1EB24DFB1C570777000537BB /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB24DD21C570665000537BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB24DDD1C570666000537BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB24DB31C570665000537BB = {
+			isa = PBXGroup;
+			children = (
+				1EB24DBE1C570665000537BB /* SY_CheShi */,
+				1EB24DD81C570665000537BB /* SY_CheShiTests */,
+				1EB24DE31C570666000537BB /* SY_CheShiUITests */,
+				1EB24DBD1C570665000537BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EB24DBD1C570665000537BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DBC1C570665000537BB /* SY_CheShi.app */,
+				1EB24DD51C570665000537BB /* SY_CheShiTests.xctest */,
+				1EB24DE01C570666000537BB /* SY_CheShiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EB24DBE1C570665000537BB /* SY_CheShi */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DF61C570745000537BB /* Lib */,
+				1EB24DF21C570687000537BB /* MVC */,
+				1EB24DBF1C570665000537BB /* Supporting Files */,
+			);
+			path = SY_CheShi;
+			sourceTree = "<group>";
+		};
+		1EB24DBF1C570665000537BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DC21C570665000537BB /* AppDelegate.h */,
+				1EB24DC31C570665000537BB /* AppDelegate.m */,
+				1EB24DCB1C570665000537BB /* Assets.xcassets */,
+				1EB24DCD1C570665000537BB /* LaunchScreen.storyboard */,
+				1EB24DD01C570665000537BB /* Info.plist */,
+				1EB24DC01C570665000537BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EB24DD81C570665000537BB /* SY_CheShiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DD91C570666000537BB /* SY_CheShiTests.m */,
+				1EB24DDB1C570666000537BB /* Info.plist */,
+			);
+			path = SY_CheShiTests;
+			sourceTree = "<group>";
+		};
+		1EB24DE31C570666000537BB /* SY_CheShiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DE41C570666000537BB /* SY_CheShiUITests.m */,
+				1EB24DE61C570666000537BB /* Info.plist */,
+			);
+			path = SY_CheShiUITests;
+			sourceTree = "<group>";
+		};
+		1EB24DF21C570687000537BB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DF31C570692000537BB /* MainViewController.h */,
+				1EB24DF41C570692000537BB /* MainViewController.m */,
+				1EB24E021C57085E000537BB /* RootViewController.h */,
+				1EB24E031C57085E000537BB /* RootViewController.m */,
+				1EB24E071C570BDF000537BB /* SyTableViewCell.h */,
+				1EB24E081C570BDF000537BB /* SyTableViewCell.m */,
+				1EB24E0A1C57785F000537BB /* Model.h */,
+				1EB24E0B1C57785F000537BB /* Model.m */,
+			);
+			name = MVC;
+			path = "untitled folder";
+			sourceTree = "<group>";
+		};
+		1EB24DF61C570745000537BB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24E061C570997000537BB /* Tools */,
+				1EB24E051C57098A000537BB /* framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		1EB24E051C57098A000537BB /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24E001C570799000537BB /* Foundation.framework */,
+				1EB24DFE1C570790000537BB /* CoreFoundation.framework */,
+				1EB24DFC1C570780000537BB /* UIKit.framework */,
+				1EB24DFA1C570777000537BB /* CoreBluetooth.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		1EB24E061C570997000537BB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1EB24DF71C57075D000537BB /* SY_BlueTooth.h */,
+				1EB24DF81C57075D000537BB /* SY_BlueTooth.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EB24DBB1C570665000537BB /* SY_CheShi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB24DE91C570666000537BB /* Build configuration list for PBXNativeTarget "SY_CheShi" */;
+			buildPhases = (
+				1EB24DB81C570665000537BB /* Sources */,
+				1EB24DB91C570665000537BB /* Frameworks */,
+				1EB24DBA1C570665000537BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SY_CheShi;
+			productName = SY_CheShi;
+			productReference = 1EB24DBC1C570665000537BB /* SY_CheShi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EB24DD41C570665000537BB /* SY_CheShiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB24DEC1C570666000537BB /* Build configuration list for PBXNativeTarget "SY_CheShiTests" */;
+			buildPhases = (
+				1EB24DD11C570665000537BB /* Sources */,
+				1EB24DD21C570665000537BB /* Frameworks */,
+				1EB24DD31C570665000537BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EB24DD71C570665000537BB /* PBXTargetDependency */,
+			);
+			name = SY_CheShiTests;
+			productName = SY_CheShiTests;
+			productReference = 1EB24DD51C570665000537BB /* SY_CheShiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EB24DDF1C570666000537BB /* SY_CheShiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB24DEF1C570666000537BB /* Build configuration list for PBXNativeTarget "SY_CheShiUITests" */;
+			buildPhases = (
+				1EB24DDC1C570666000537BB /* Sources */,
+				1EB24DDD1C570666000537BB /* Frameworks */,
+				1EB24DDE1C570666000537BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EB24DE21C570666000537BB /* PBXTargetDependency */,
+			);
+			name = SY_CheShiUITests;
+			productName = SY_CheShiUITests;
+			productReference = 1EB24DE01C570666000537BB /* SY_CheShiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EB24DB41C570665000537BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "钱学明";
+				TargetAttributes = {
+					1EB24DBB1C570665000537BB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VNU2HZ2P5U;
+					};
+					1EB24DD41C570665000537BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1EB24DBB1C570665000537BB;
+					};
+					1EB24DDF1C570666000537BB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1EB24DBB1C570665000537BB;
+					};
+				};
+			};
+			buildConfigurationList = 1EB24DB71C570665000537BB /* Build configuration list for PBXProject "SY_CheShi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EB24DB31C570665000537BB;
+			productRefGroup = 1EB24DBD1C570665000537BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EB24DBB1C570665000537BB /* SY_CheShi */,
+				1EB24DD41C570665000537BB /* SY_CheShiTests */,
+				1EB24DDF1C570666000537BB /* SY_CheShiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EB24DBA1C570665000537BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB24DCF1C570665000537BB /* LaunchScreen.storyboard in Resources */,
+				1EB24DCC1C570665000537BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB24DD31C570665000537BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB24DDE1C570666000537BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EB24DB81C570665000537BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB24DC41C570665000537BB /* AppDelegate.m in Sources */,
+				1EB24DF51C570692000537BB /* MainViewController.m in Sources */,
+				1EB24DF91C57075D000537BB /* SY_BlueTooth.m in Sources */,
+				1EB24E091C570BDF000537BB /* SyTableViewCell.m in Sources */,
+				1EB24E0C1C57785F000537BB /* Model.m in Sources */,
+				1EB24DC11C570665000537BB /* main.m in Sources */,
+				1EB24E041C57085E000537BB /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB24DD11C570665000537BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB24DDA1C570666000537BB /* SY_CheShiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB24DDC1C570666000537BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB24DE51C570666000537BB /* SY_CheShiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EB24DD71C570665000537BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EB24DBB1C570665000537BB /* SY_CheShi */;
+			targetProxy = 1EB24DD61C570665000537BB /* PBXContainerItemProxy */;
+		};
+		1EB24DE21C570666000537BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EB24DBB1C570665000537BB /* SY_CheShi */;
+			targetProxy = 1EB24DE11C570666000537BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EB24DCD1C570665000537BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EB24DCE1C570665000537BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EB24DE71C570666000537BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EB24DE81C570666000537BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EB24DEA1C570666000537BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SY_CheShi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianxueming.SY-CheShi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EB24DEB1C570666000537BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SY_CheShi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianxueming.SY-CheShi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EB24DED1C570666000537BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SY_CheShiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianxueming.SY-CheShiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SY_CheShi.app/SY_CheShi";
+			};
+			name = Debug;
+		};
+		1EB24DEE1C570666000537BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SY_CheShiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianxueming.SY-CheShiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SY_CheShi.app/SY_CheShi";
+			};
+			name = Release;
+		};
+		1EB24DF01C570666000537BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SY_CheShiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianxueming.SY-CheShiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SY_CheShi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1EB24DF11C570666000537BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SY_CheShiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianxueming.SY-CheShiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SY_CheShi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EB24DB71C570665000537BB /* Build configuration list for PBXProject "SY_CheShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB24DE71C570666000537BB /* Debug */,
+				1EB24DE81C570666000537BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB24DE91C570666000537BB /* Build configuration list for PBXNativeTarget "SY_CheShi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB24DEA1C570666000537BB /* Debug */,
+				1EB24DEB1C570666000537BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB24DEC1C570666000537BB /* Build configuration list for PBXNativeTarget "SY_CheShiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB24DED1C570666000537BB /* Debug */,
+				1EB24DEE1C570666000537BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB24DEF1C570666000537BB /* Build configuration list for PBXNativeTarget "SY_CheShiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB24DF01C570666000537BB /* Debug */,
+				1EB24DF11C570666000537BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EB24DB41C570665000537BB /* Project object */;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qif-Rx-ZcP">
+                                <rect key="frame" x="46" y="102" width="73" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Lg8-9b-5bf"/>
+                                    <constraint firstAttribute="width" constant="73" id="Qp5-cx-aDO"/>
+                                </constraints>
+                                <state key="normal" title="发短信"/>
+                                <connections>
+                                    <action selector="sendMessageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WOH-8B-0X1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJu-C9-PYy">
+                                <rect key="frame" x="221" y="102" width="73" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="MJp-KH-d4z"/>
+                                    <constraint firstAttribute="width" constant="73" id="oKz-sB-yF2"/>
+                                </constraints>
+                                <state key="normal" title="打电话"/>
+                                <connections>
+                                    <action selector="callAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qq1-Rq-3dY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vps-st-G6q">
+                                <rect key="frame" x="151" y="227" width="73" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="DcP-rB-F2c"/>
+                                    <constraint firstAttribute="width" constant="73" id="mr8-U7-bmS"/>
+                                </constraints>
+                                <state key="normal" title="发邮件"/>
+                                <connections>
+                                    <action selector="callAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MjD-T7-Ohr"/>
+                                    <action selector="sendMail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EwP-un-e8J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vps-st-G6q" firstAttribute="top" secondItem="xJu-C9-PYy" secondAttribute="bottom" constant="70" id="DdV-y6-3YH"/>
+                            <constraint firstItem="qif-Rx-ZcP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="Ee8-d1-t4J"/>
+                            <constraint firstItem="Vps-st-G6q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M70-TQ-yqx"/>
+                            <constraint firstItem="xJu-C9-PYy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="fRx-qe-1Vd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xJu-C9-PYy" secondAttribute="trailing" constant="65" id="rCh-3J-gUp"/>
+                            <constraint firstItem="qif-Rx-ZcP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="rno-ei-EMk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436.5" y="432.5"/>
+        </scene>
+    </scenes>
+</document>
