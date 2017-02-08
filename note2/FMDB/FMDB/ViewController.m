@@ -24,6 +24,14 @@
     
     NSLog(@"filePaht = %@", filePath);
     //创建数据库实例对象
+    
+    /*
+     Path的值可以传入以下三种情况：
+     
+     1) 具体文件路径，如果不存在会自动创建
+     2) 空字符串@""，会在临时目录创建一个空的数据库，当FMDatabase连接关闭时，数据库文件也被删除
+     3) nil，会创建一个内存中临时数据库，当FMDatabase连接关闭时，数据库会被销毁
+     */
     self.db = [FMDatabase databaseWithPath:filePath];
     
     //打开数据库
