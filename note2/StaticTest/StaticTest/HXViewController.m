@@ -12,6 +12,7 @@
 
 @end
 
+// static修饰的变量在编译时就会分配内存（静态存储区）
 static NSInteger i = 0;
 
 @implementation HXViewController
